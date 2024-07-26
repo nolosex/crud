@@ -1,0 +1,87 @@
+/* App.css */
+
+.App {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .centered-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .Datos {
+    margin-bottom: 20px;
+  }
+  
+  .Datos label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .Datos input {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin-top: 4px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .Tablacondatos {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-top: 20px;
+  }
+  
+  .Tablacondatos table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .Tablacondatos th, .Tablacondatos td {
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+  }
+  
+  .Tablacondatos th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  .Tablacondatos td {
+    text-align: left;
+  }
+  
+  .Tablacondatos td button {
+    margin-right: 5px;
+    padding: 5px 10px;
+    border: none;
+    background-color: #f0f0f0;
+    cursor: pointer;
+  }
+  
+  .btn {
+    margin-right: 10px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #fff;
+  }
+  
+  .btn.success {
+    background-color: #4CAF50; /* Green */
+  }
+  
+  .btn.success:hover {
+    background-color: #45a049;
+  }
+  
+  .btn:hover {
+    background-color: #ddd;
+  }
+  
